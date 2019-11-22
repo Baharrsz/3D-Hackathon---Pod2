@@ -1,0 +1,15 @@
+html * {
+  margin: unset;
+  padding: unset;
+}
+
+html,
+body {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
