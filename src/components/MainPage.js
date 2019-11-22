@@ -13,4 +13,15 @@ export default class MainPage extends Component {
       </div>
     );
   }
+
+  radio = click => {
+    click.preventDefault();
+    price = click.target.id;
+    // this.setState({ price: click.target.id });
+  };
+
+  dropdown = select => {
+    city = select.target.value;
+    // this.setState({ city: select.target.value });
+  };
 }
