@@ -15,4 +15,90 @@ body {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
+
+@font-face {
+  font-family: "Light";
+  src: url(../assets/fonts/Roboto/Roboto-Light.ttf);
+}
+
+@font-face {
+  font-family: "Medium";
+  src: url(../assets/fonts/Roboto/Roboto-Medium.ttf);
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 56px;
+  margin-bottom: 23.6px;
+}
+
+.header-button {
+  background: #f4a698;
+  width: 56px;
+  height: 56px;
+  border: unset;
+  position: absolute;
+  right: 0;
+}
+
+.header-title {
+  color: black;
+}
+
+.restaurant {
+  font-family: Light;
+  padding: 0 4.305555555555555%;
+}
+
+.restaurant-title {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  padding-top: 18px;
+  border-top: 1px solid #d8d8d8;
+}
+
+.restaurant__flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-bottom: 1px solid #d8d8d8;
+  padding: 9.5px 0;
+}
+
+.restaurant__flex__container {
+  margin: 12.97px 0 0 0;
+}
+
+.restaurant__flex__container-name {
+  font-family: Medium;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.restaurant__flex__container-description {
+  font-size: 12px;
+  line-height: 14px;
+  margin-bottom: 23.87px;
+}
+
+.restaurant__flex__container-rating {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.restaurant__flex-img {
+  width: 87px;
+  height: 87px;
+  border: 1px solid #979797;
+  margin-right: 14px;
+}
 /*# sourceMappingURL=main.css.map */
