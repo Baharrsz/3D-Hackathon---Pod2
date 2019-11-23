@@ -45,11 +45,11 @@ export default class Filter extends Component {
           <label className="city__label">City</label>
           <select className="city__input" onChange={this.props.dropdown}>
             <option value=""></option>
-            <option value="newDelhi">New Delhi</option>
-            <option value="ghaziabad">Ghaziabad</option>
-            <option value="noida">Noida</option>
-            <option value="faridabad">Faridabad</option>
-            <option value="gurgaon">Gurgaon</option>
+            <option value="New Delhi">New Delhi</option>
+            <option value="Ghaziabad">Ghaziabad</option>
+            <option value="Noida">Noida</option>
+            <option value="Faridabad">Faridabad</option>
+            <option value="Gurgaon">Gurgaon</option>
           </select>
         </div>
       </div>

@@ -43,6 +43,7 @@ export default class MainPage extends Component {
     if (this.state.price && this.state.city) {
       console.log(this.state.price, this.state.city);
       const filtered = data.filter(restaurant => {
+        console.log(restaurant.City);
         return (
           //   restaurant.Price_range === this.state.price &&
           restaurant.City === this.state.city
