@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Bar } from "react-chartjs-2";
-import Data from "../assets/by_record.json";
+import Data from "../data/data.json";
 
 var block = 0;
 var one = [];

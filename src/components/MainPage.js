@@ -16,7 +16,7 @@ export default class MainPage extends Component {
       return <Filter radio={this.radio} dropdown={this.dropdown} />;
     else {
       return (
-        <div>
+        <div className="main">
           <Filter radio={this.radio} dropdown={this.dropdown} />
           <DisplayFilter filtered={this.state.filtered} />
         </div>
@@ -33,6 +33,7 @@ export default class MainPage extends Component {
   };
 
   dropdown = select => {
+    select.preventDefault();
     // city = select.target.value;
     this.setState({ city: select.target.value }, () => {
       this.filter();
@@ -45,7 +46,7 @@ export default class MainPage extends Component {
       const filtered = data.filter(restaurant => {
         console.log(restaurant.City);
         return (
-          //   restaurant.Price_range === this.state.price &&
+          restaurant.Price_range === this.state.price &&
           restaurant.City === this.state.city
         );
       });

@@ -16,3 +16,14 @@ body {
 @import "./partials/fonts";
 @import "./partials/header";
 @import "./partials/restaurant";
+
+.price__btn {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.price,
+.city {
+  display: flex;
+  justify-content: center;
+}
