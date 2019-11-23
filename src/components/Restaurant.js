@@ -4,8 +4,7 @@ import Builder from "./RestaurantBuilder";
 export default function Restaurant(props) {
   console.log(props);
 
-  return (
-    props.data &&
+  return props.data ? (
     props.data.map(data => {
       return (
         <>
@@ -17,5 +16,7 @@ export default function Restaurant(props) {
         </>
       );
     })
+  ) : (
+    <div>Loading......</div>
   );
 }
