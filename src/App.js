@@ -1,12 +1,14 @@
-import React, { Component } from "react";
+import React from "react";
+import MainPage from "./components/MainPage";
+import Header from "./components/Header";
 import Chart from "./components/PriceingChart";
 
-export default class App extends Component {
-  render() {
-    return (
-      <div>
-        <Chart />
-      </div>
-    );
-  }
+export default function App() {
+  return (
+    <div className="App">
+      <Header />
+      <MainPage />
+      <Chart />
+    </div>
+  );
 }

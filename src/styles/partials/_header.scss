@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 56px;
+  margin-bottom: 23.6px;
+  &-button {
+    background: #f4a698;
+    width: 56px;
+    height: 56px;
+    border: unset;
+    position: absolute;
+    right: 0;
+  }
+  &-title {
+    color: black;
+  }
+}
