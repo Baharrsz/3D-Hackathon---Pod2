@@ -1,0 +1,25 @@
+[
+  {
+    "Restaurant ID": 301728,
+    "Restaurant Name": "Desire Foods",
+    "Country Code": 1,
+    "City": "Faridabad",
+    "Address": "G 25/22, Main Road, 40 Feet, Molarband Extension, Badarpur Border, Faridabad",
+    "Locality": "Badarpur Border",
+    "Locality Verbose": "Badarpur Border, Faridabad",
+    "Longitude": 77.3066401,
+    "Latitude": 28.4900591,
+    "Cuisines": "Chinese, Fast Food, Bakery",
+    "Average Cost for two": 250,
+    "Currency": "Indian Rupees(Rs.)",
+    "Has Table booking": "No",
+    "Has Online delivery": "No",
+    "Is delivering now": "No",
+    "Switch to order menu": "No",
+    "Price range": 1,
+    "Aggregate rating": 2.9,
+    "Rating color": "Orange",
+    "Rating text": "Average",
+    "Votes": 4
+  }
+]

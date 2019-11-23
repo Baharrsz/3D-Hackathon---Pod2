@@ -1,7 +1,12 @@
 import React, { Component } from "react";
+import Restaurant from "./Restaurant";
 
-export default class DisplayFilter extends Component {
+export default class App extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div>
+        <Restaurant data={this.props.filtered} />
+      </div>
+    );
   }
 }
